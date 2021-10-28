@@ -1,0 +1,29 @@
+{
+  "name": "@jhqn/outlink",
+  "version": "0.0.3",
+  "description": "just window.location.href",
+  "private": false,
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "scripts": {
+    "build": "tsc --build tsconfig.json",
+    "prepublishOnly": "rimraf dist && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaderd-jh/outLink.git"
+  },
+  "author": "jhqn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jaderd-jh/outLink/issues"
+  },
+  "homepage": "https://github.com/jaderd-jh/outLink#readme",
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "typescript": "^4.4.4"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "name": "@jhqn/outlink",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "just window.location.href",
   "private": false,
   "main": "dist/index.js",

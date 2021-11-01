@@ -2,3 +2,6 @@
 .idea
 /pnpm-lock.yaml
 /index.ts
+/rollup.config.ts
+/.babelrc.js
+/tsconfig.json
